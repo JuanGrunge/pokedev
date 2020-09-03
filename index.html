@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- csnvas JS Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+    
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>PokeDev</title>
+</head>
+
+<body class="bg-secondary">
+    <div class="bg-dark col-lg-12 d-inline-flex">
+        <!-- Formulario -->
+        <form id="formP">
+            <div class="form-group row">
+                <label for="numberP" class="col-md-5 col-form-label">Busca tu mono japo</label>
+                <div class="col-md-5">
+                    <input type="number" class="form-control" id="numberP" placeholder="número de 1 a 807">
+                </div>
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-primary">Consultar</button>
+                </div>
+            </div>
+            <div class="form-group row">
+
+            </div>
+        </form>
+    </div>
+
+    <!-- POKEDEX -->
+    <div class="container pokeDex" >
+        <img src="assets/img/pokedéx.png" alt="pokedéx">
+
+        <!-- LEDS -->
+        <div class="leds bg-dark">
+            <div class="rounded-sm rounded-circle bg-info position-absolute d-inline-block" id="ledInfo"></div>
+            <div class="rounded-sm rounded-circle bg-danger position-absolute d-inline-block" id="ledUno"></div>
+            <div class="rounded-sm rounded-circle bg-warning position-absolute d-inline-block" id="ledDos"></div>
+            <div class="rounded-sm rounded-circle bg-success position-absolute d-inline-block" id="ledTres"></div>
+        </div>
+
+        <!-- PANTALLA A -->
+        <div class="pantallaA bg-light">
+            <div class="pokeInfo"></div>
+        </div>
+
+        <!-- PANTALLA B -->
+        <div class="pantallaB bg-light">
+            <div class="col-md-12 pStats pt-3"></div>
+        </div>
+    </div>
+
+    <!-- Acceso a la hoja main.js donde estaran las declaraciones en javascript -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>

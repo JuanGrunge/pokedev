@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pokeDex{
+    width: 795px;
+    height: 598px;
+    position: relative;
+
+}
+
+.pokeDex img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    filter: contrast(200%) drop-shadow(5px 5px 8px rgb(0, 0, 0));
+}
+
+.leds{
+    width: 200px;
+    height: 80px;
+    top: 10px;
+    left: 0; position: absolute;
+    z-index: 1;
+    filter: brightness(100%) contrast(150%);
+}
+
+#ledInfo{
+    width: 80px;
+    height: 80px;
+    left: 15px;
+    opacity: 0.2;
+}
+
+#ledUno{
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 98px;
+    opacity: 0.2;
+}
+
+#ledDos{
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 125px;
+    opacity: 0.2;
+}
+
+#ledTres{
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 160px;
+    opacity: 0.2;
+}
+
+.pantallaA{
+    width: 340px;
+    height: 380px;
+    top: 150px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+    filter: grayscale(90%) sepia(1);
+}
+
+.pokeInfo img{
+    position: relative;
+    top: 0px;
+    left: 60px;
+    width: 190px;
+}
+
+.pantallaB{
+    width: 310px;
+    height: 400px;
+    top: 155px;
+    left: 460px;
+    position: absolute;
+    z-index: 1;
+    filter: sepia(1);
+}
+
+.pStats{
+    width: 280px;
+    height: 350px;
+}
